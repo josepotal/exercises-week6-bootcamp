@@ -1,0 +1,8 @@
+extends layout.pug
+
+block content
+  ul.list-group
+    each entry in entries
+      li.list-group-item.post-entry
+        a(href='/article/'+ entry.id) #{entry.title}
+        span Published: #{entry.published}
