@@ -3,7 +3,7 @@ const app = express();
 
 var pug = require('pug');
 
-var blogEngine = require('./blog');
+var blogEngine = require('./app/blog');
 
 app.set('view engine', 'pug');
 //app.engine('html', hbs.__express);

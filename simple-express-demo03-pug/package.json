@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "prestart": "npm install && bower install",
-    "start": "node app.js",
-    "watch": "nodemon app.js"
+    "start": "node main.js",
+    "watch": "nodemon main.js"
   },
   "author": "",
   "license": "ISC",
